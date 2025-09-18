@@ -25,11 +25,13 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body class="font-[Poppins]">
-    <header class="bg-[#264653]">
+    <header class="">
       <div class="max-w-[1140px] mx-auto pb-10">
-        <div class="flex justify-end items-center text-center px-5 lg:px-0">
+        
+        <div class="flex justify-between items-center text-cente py-4 px-5 lg:px-0">
+          <h1 class="text-4xl font-bold">Bike Dekho</h1>
           <div
-            class="hidden lg:flex items-center gap-7 font-semibold text-white my-5"
+            class="hidden lg:flex items-center gap-7 font-semibold text-black my-5"
           >
             <a href="">Home</a>
             <a href="">Shop</a>
@@ -39,11 +41,11 @@
           </div>
 
           <details class="lg:hidden my-5">
-            <summary class="text-white text-3xl cursor-pointer list-none">
+            <summary class="text-black text-3xl cursor-pointer list-none">
               <i class="fa-solid fa-bars"></i>
             </summary>
             <div
-              class="flex flex-col gap-4 mt-3 bg- p-4 rounded-md text-white font-semibold"
+              class="flex flex-col gap-4 mt-3 bg- p-4 rounded-md text-balck font-semibold"
             >
               <a href="">Home</a>
               <a href="">Shop</a>
@@ -53,31 +55,106 @@
             </div>
           </details>
         </div>
-
-        <div
-          class="my-10 flex flex-col lg:flex-row justify-start lg:justify-center px-6 lg:px-0 items-start lg:items-center"
-        >
-          <div class="w-full lg:w-1/2">
-            <h1 class="text-[16px] text-[#FFFFFF] mb-4">
-              Computer-controlled digital transistorized with electronic advance
-            </h1>
-            <h1 class="text-3xl lg:text-5xl font-bold text-[#FFFFFF] mb-4">
-              Honda CBR 300R
-            </h1>
-            <p class="text-[#E0E0E0] mb-4">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis enim velit mollit.
-              Exercitation veniam consequat sunt nostrud amet.
-            </p>
-            <button class="btn bg-[#E76F51] text-white w-28">Purchase</button>
-          </div>
-
-          <div class="mt-6 lg:mt-0">
-            <img src="./images/others/Red Bike.png" alt="" />
-          </div>
-        </div>
       </div>
     </header>
+   <section class="max-w-[1140px] mx-auto bg-[#E76F511A]">
+  <div class="carousel w-full">
+    <div id="slide1" class="carousel-item relative w-full">
+      <div class="flex flex-col lg:flex-row items-center px-6 lg:px-10 py-12">
+        <div class="w-full lg:w-1/2 ml-8">
+          <h1 class="text-3xl lg:text-5xl font-bold text-black mb-4">
+            Ride-on R15 V4 <br> with Smile
+          </h1>
+          <p class="text-[#000000CC] mb-4 mr-8 lg:mr-0">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+            Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+          </p>
+          <button class="btn bg-[#E76F51] text-white w-28">Purchase</button>
+        </div>
+
+        <div class="w-full lg:w-1/2 flex justify-center lg:justify-end">
+          <img src="./images/others/Red Bike.png" class="w-[400px]" />
+        </div>
+      </div>
+
+      <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+        <a href="#slide4" class="btn btn-circle">❮</a>
+        <a href="#slide2" class="btn btn-circle">❯</a>
+      </div>
+    </div>
+
+       <div id="slide2" class="carousel-item relative w-full">
+      <div class="flex flex-col lg:flex-row items-center px-6 lg:px-10 py-12">
+        <div class="w-full lg:w-1/2 ml-8">
+          <h1 class="text-3xl lg:text-5xl font-bold text-black mb-4">
+            Ride-on R15 V4 <br> with Smile
+          </h1>
+          <p class="text-[#000000CC] mb-4 mr-8 lg:mr-0">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+            Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+          </p>
+          <button class="btn bg-[#E76F51] text-white w-28">Purchase</button>
+        </div>
+
+        <div class="w-full lg:w-1/2 flex justify-center lg:justify-end">
+          <img src="./images/others/Red Bike.png" class="w-[400px]" />
+        </div>
+      </div>
+
+      <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+        <a href="#slide1" class="btn btn-circle">❮</a>
+        <a href="#slide3" class="btn btn-circle">❯</a>
+      </div>
+    </div>
+    <div id="slide3" class="carousel-item relative w-full">
+      <div class="flex flex-col lg:flex-row items-center px-6 lg:px-10 py-12">
+        <div class="w-full lg:w-1/2 ml-8">
+          <h1 class="text-3xl lg:text-5xl font-bold text-black mb-4">
+            Ride-on R15 V4 <br> with Smile
+          </h1>
+          <p class="text-[#000000CC] mb-4 mr-8 lg:mr-0">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+            Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+          </p>
+          <button class="btn bg-[#E76F51] text-white w-28">Purchase</button>
+        </div>
+
+        <div class="w-full lg:w-1/2 flex justify-center lg:justify-end">
+          <img src="./images/others/Red Bike.png" class="w-[400px]" />
+        </div>
+      </div>
+
+      <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+        <a href="#slide2" class="btn btn-circle">❮</a>
+        <a href="#slide4" class="btn btn-circle">❯</a>
+      </div>
+    </div>
+        <div id="slide4" class="carousel-item relative w-full">
+      <div class="flex flex-col lg:flex-row items-center px-6 lg:px-10 py-12">
+        <div class="w-full lg:w-1/2 ml-8">
+          <h1 class="text-3xl lg:text-5xl font-bold text-black mb-4">
+            Ride-on R15 V4 <br> with Smile
+          </h1>
+          <p class="text-[#000000CC] mb-4 mr-8 lg:mr-0">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+            Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+          </p>
+          <button class="btn bg-[#E76F51] text-white w-28">Purchase</button>
+        </div>
+
+        <div class="w-full lg:w-1/2 flex justify-center lg:justify-end">
+          <img src="./images/others/Red Bike.png" class="w-[400px]" />
+        </div>
+      </div>
+
+      <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+        <a href="#slide3" class="btn btn-circle">❮</a>
+        <a href="#slide1" class="btn btn-circle">❯</a>
+      </div>
+    </div>
+  </div>
+</section>
+
 
     <main class="max-w-[1140px] mx-auto mt-6">
       <div class="text-center mb-20">
@@ -168,7 +245,7 @@
         </div>
       </section>
 
-      <h1 class="text-4xl lg:text-5xl font-semibold text-center mb-20">
+      <h1 class="text-3xl lg:text-5xl font-semibold text-center mx-4 lg:mx-0 mb-20">
         Happy <span class="text-[#E76F51]">Clients Says</span>
       </h1>
       <section
@@ -259,7 +336,7 @@
       <section class="flex flex-col lg:flex-row mt-15">
         <div class="w-full lg:w-1/2 px-6 lg:px-0 mb-4">
           <img
-            src="./images/others/Frame.png"
+            src="./images/others/faq.png"
             class="w-full lg:w-[80%] h-96"
             alt=""
           />
@@ -327,19 +404,23 @@
     </main>
 
     <footer class="bg-black text-white">
-      <div class="max-w-[1140px] mx-auto flex flex-col lg:flex-row justify-between py-12">
+      <div class="max-w-[1140px] mx-auto flex flex-col lg:flex-row justify-between px-6 lg:px-0 py-12">
         <div class="flex flex-col justify-center px-6 lg:px-0">
-          <div class="flex gap-8 mb-6">
+          <div class="flex gap-8 mb-4 lg:mb-6">
             <h1>Download Now</h1>
             <p>License</p>
           </div>
-          <div class="grid grid-cols-3 lg:grid-cols-6 gap-4  mb-6">
+          <div class="flex flex-col lg:flex-row gap-6 mb-8">
+            <div class="flex gap-6">
             <a href="">About</a>
             <a href="">Features</a>
             <a href="">Pricing</a>
+            </div>
+            <div class="flex gap-6">
             <a href="">Careers</a>
             <a href="">Help</a>
             <a href="">Privacy Policy</a>
+          </div>
           </div>
           <h2 class="mb-16 lg:mb-0">© 2025 bike. All rights reserved</h2>
         </div>
